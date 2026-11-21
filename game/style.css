@@ -1,0 +1,30 @@
+/* Lantern Heist — page chrome around the canvas. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0a0818;
+  min-height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, sans-serif;
+}
+main {
+  text-align: center;
+  padding: 12px;
+}
+canvas {
+  display: block;
+  max-width: 96vw;
+  height: auto;
+  border: 2px solid #2c2a44;
+  border-radius: 6px;
+  background: #14122b;
+}
+.hint {
+  color: #8f86b8;
+  font-size: 14px;
+  margin: 10px 0 0;
+}
